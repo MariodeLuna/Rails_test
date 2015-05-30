@@ -1,0 +1,21 @@
+<h1>Pages#index</h1>
+<p>Find me in app/views/pages/index.html.erb</p>
+<h1>Hola! soy una pagina</h1>
+
+<%= image_tag("Ninja_Male.png") %>
+
+<img src="<%= asset_path('Ninja_Male.png')%>">
+
+<a href="<%= pages_index_path %>" title="">hola </a>
+
+
+<%= link_to "hola", pages_index_path  %>
+
+
+2 + 2
+<%= 2 + 2 %>
+<ul>
+<% @a.each do |u| %>
+	<li><%= u * 2 %></li>
+<% end %>
+</ul>
